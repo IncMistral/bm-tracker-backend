@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import json, os
 
 app = Flask(__name__)
+CORS(app)  # 👈 this enables cross-origin requests
+
 DATA_FILE = "tracker.json"
 
 @app.route("/load", methods=["GET"])
 def load():
-    """Return the latest tracker data as JSON"""
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
             data = json.load(f)
@@ -16,7 +18,6 @@ def load():
 
 @app.route("/save", methods=["POST"])
 def save():
-    """Accept JSON from client and overwrite tracker.json"""
     try:
         data = request.get_json(force=True)
         with open(DATA_FILE, "w") as f:
@@ -28,7 +29,3 @@ def save():
 @app.route("/", methods=["GET"])
 def root():
     return "BM Tracker backend is running!"
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
-    app.run(host="0.0.0.0", port=port)
