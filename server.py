@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json, os
 
 app = Flask(__name__)
-CORS(app)  # 👈 this enables cross-origin requests
+CORS(app)  # 👈 allow cross-origin requests
 
 DATA_FILE = "tracker.json"
 
