@@ -1,0 +1,151 @@
+[
+  {
+    "name": "TCV's",
+    "projects": [
+      {
+        "completionDate": "2025-09-10",
+        "milestones": [
+          {
+            "completed": true,
+            "completedLate": false,
+            "date": "2025-08-27",
+            "label": "MILESTONE 1"
+          },
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-08-30",
+            "label": "MILESTONE 2"
+          },
+          {
+            "completed": true,
+            "completedLate": true,
+            "date": "2025-09-02",
+            "label": "MILESTONE 3"
+          },
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-09-05",
+            "label": "MILETSONE 4"
+          }
+        ],
+        "name": "Project A",
+        "offsetDays": 0,
+        "startDate": "2025-08-25"
+      },
+      {
+        "completionDate": "2025-10-01",
+        "milestones": [
+          {
+            "completed": true,
+            "completedLate": false,
+            "date": "2025-08-10",
+            "label": "MILESTONE 1"
+          },
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-08-20",
+            "label": "MILESTONE 2"
+          },
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-09-15",
+            "label": "MILESTONE 3"
+          }
+        ],
+        "name": "Project B",
+        "offsetDays": 45,
+        "startDate": "2025-08-01"
+      },
+      {
+        "completionDate": "2025-10-01",
+        "milestones": [
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-08-15",
+            "label": "MILESTONE 1"
+          }
+        ],
+        "name": "Project C",
+        "offsetDays": 55,
+        "startDate": "2025-07-01"
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "xxxxxxxxxx",
+        "role": "TEAM LEAD"
+      }
+    ]
+  },
+  {
+    "name": "BCR's",
+    "projects": [
+      {
+        "completionDate": "",
+        "milestones": [],
+        "name": "Project A",
+        "startDate": "2025-08-30"
+      },
+      {
+        "completionDate": "",
+        "milestones": [],
+        "name": "Project B",
+        "startDate": "2025-09-02"
+      },
+      {
+        "completionDate": "",
+        "milestones": [],
+        "name": "Project C",
+        "startDate": "2025-09-02"
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "xxxxxxxxxx",
+        "role": "TEAM LEAD"
+      }
+    ]
+  },
+  {
+    "name": "STORAGE",
+    "projects": [
+      {
+        "completionDate": "2025-09-01",
+        "milestones": [
+          {
+            "completed": false,
+            "completedLate": false,
+            "date": "2025-07-15",
+            "label": "MILESTONE 1"
+          }
+        ],
+        "name": "Project A",
+        "offsetDays": 14,
+        "startDate": "2025-07-01"
+      },
+      {
+        "completionDate": "",
+        "milestones": [],
+        "name": "Project B",
+        "startDate": "2025-09-02"
+      },
+      {
+        "completionDate": "",
+        "milestones": [],
+        "name": "Project C",
+        "startDate": "2025-09-02"
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "xxxxxxxxxx",
+        "role": "TEAM LEAD"
+      }
+    ]
+  }
+]
