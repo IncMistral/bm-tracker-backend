@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests from GitHub Pages
 
 DATA_FILE = "/data/tracker.json"
-USERS_FILE = "users.json"
+USERS_FILE = "/data/users.json"
 
 # --- Tracker routes ---
 @app.route("/load", methods=["GET"])
